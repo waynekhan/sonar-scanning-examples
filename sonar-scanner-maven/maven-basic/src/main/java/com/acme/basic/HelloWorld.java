@@ -2,12 +2,12 @@ package com.acme.basic;
 
 public class HelloWorld {
 
-  void sayHello() {
-    System.out.println("Hello World!");
+  String sayHello() {
+    return "Hello World!";
   }
 
-  void notCovered() {
-    System.out.println("This method is not covered by unit tests");
+  String nowCovered() {
+    return "This method is now covered by unit tests";
   }
 
 }
