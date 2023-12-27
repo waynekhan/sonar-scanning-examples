@@ -7,10 +7,10 @@ public class Module2 {
   }
 
   public void coveredByIntegrationTest() {
-    System.out.println("This method is covered by integration test");
+    System.out.println("This Module2 method is covered by integration test");
   }
 
-  public void uncovered() {
-    System.out.println("This method is not covered");
+  public void covered() {
+    System.out.println("This method is now covered");
   }
 }
