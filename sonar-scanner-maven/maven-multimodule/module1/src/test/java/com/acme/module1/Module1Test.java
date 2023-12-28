@@ -8,5 +8,6 @@ public class Module1Test {
   public void coveredByUnitTest() {
     Module1 module1 = new Module1();
     module1.coveredByUnitTest();
+    module1.covered();
   }
 }
